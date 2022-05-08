@@ -6,27 +6,20 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
 
-    protected Button startBtn, dictionaryBtn, settingsBtn;
+    protected ImageButton dictionaryBtn, changeModeBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        startBtn = findViewById(R.id.start_btn);
         dictionaryBtn = findViewById(R.id.dict_btn);
-        settingsBtn = findViewById(R.id.settings_btn);
+        changeModeBtn = findViewById(R.id.change_mode);
 
-        startBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, LearningActivity.class);
-                startActivity(intent);
-            }
-        });
         dictionaryBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -34,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        settingsBtn.setOnClickListener(new View.OnClickListener() {
+        changeModeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, SettingsActivity.class);

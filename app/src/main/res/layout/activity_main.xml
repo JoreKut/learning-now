@@ -4,62 +4,89 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#47A8CF"
-    tools:context=".MainActivity"
-    android:isScrollContainer="true">
-
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="329dp"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <Button
-            android:id="@+id/start_btn"
-            style="@style/Widget.AppCompat.Button"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="25dp"
-            android:layout_marginBottom="25dp"
-            android:background="#234324"
-            android:text="@string/start"
-            android:textColor="#fff" />
-
-        <Button
-            android:id="@+id/dict_btn"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="25dp"
-            android:layout_marginBottom="25dp"
-            android:background="#234324"
-            android:text="@string/dictionary"
-            android:textColor="#fff" />
-
-        <Button
-            android:id="@+id/settings_btn"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="25dp"
-            android:layout_marginBottom="25dp"
-            android:background="#234324"
-            android:text="@string/settings"
-            android:textColor="#fff" />
-    </LinearLayout>
+    android:background="@drawable/main_background_light"
+    android:isScrollContainer="true"
+    tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-medium"
-        android:text="Learning Now"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        android:id="@+id/foreign_word2"
+        android:layout_width="234dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Learning Now!"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/foreign_word"
+        android:layout_width="324dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="264dp"
+        android:background="#5DA3F6"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="ANY ENGLISH WORD"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:circularflow_angles="5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="299dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="392dp"
+        android:background="@drawable/main_input_light"
+        android:backgroundTintMode="add"
+        android:ems="10"
+        android:hint="Translate"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textColorHint="#D3D3D3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/change_mode"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="64dp"
+        android:background="#00FFFFFF"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:srcCompat="@drawable/night"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/dict_btn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="164dp"
+        android:background="#00FFFFFF"
+        android:focusable="auto"
+        android:scaleType="centerCrop"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:srcCompat="@drawable/dictionary_light"
+        tools:ignore="SpeakableTextPresentCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
