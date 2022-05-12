@@ -3,16 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/LearningNow/app/src/main/res/drawable/add_word_input.xml" value="0.2555" />
+        <entry key="..\:/AndroidStudioProjects/LearningNow/app/src/main/res/drawable/dict_line_element.xml" value="0.2555" />
         <entry key="..\:/AndroidStudioProjects/LearningNow/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2555" />
         <entry key="..\:/AndroidStudioProjects/LearningNow/app/src/main/res/drawable/main_input_light.xml" value="0.2555" />
         <entry key="..\:/AndroidStudioProjects/LearningNow/app/src/main/res/drawable/text_box_underline.xml" value="0.2555" />
         <entry key="..\:/AndroidStudioProjects/LearningNow/app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.1606425702811245" />
+        <entry key="..\:/AndroidStudioProjects/LearningNow/app/src/main/res/layout-w1240dp/edit_word_dialog.xml" value="0.176" />
         <entry key="..\:/AndroidStudioProjects/LearningNow/app/src/main/res/layout-w936dp/content_scrolling.xml" value="0.1875" />
-        <entry key="..\:/AndroidStudioProjects/LearningNow/app/src/main/res/layout/activity_dictionary.xml" value="0.152" />
-        <entry key="..\:/AndroidStudioProjects/LearningNow/app/src/main/res/layout/activity_learning.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/LearningNow/app/src/main/res/layout/activity_dictionary.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/LearningNow/app/src/main/res/layout/activity_dictionary_edit_dialog.xml" value="0.24864130434782608" />
+        <entry key="..\:/AndroidStudioProjects/LearningNow/app/src/main/res/layout/activity_learning.xml" value="0.264" />
         <entry key="..\:/AndroidStudioProjects/LearningNow/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/AndroidStudioProjects/LearningNow/app/src/main/res/layout/activity_scrolling.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/LearningNow/app/src/main/res/layout/activity_settings.xml" value="0.16145833333333334" />
+        <entry key="..\:/AndroidStudioProjects/LearningNow/app/src/main/res/layout/add_word_dialog.xml" value="0.264" />
         <entry key="..\:/AndroidStudioProjects/LearningNow/app/src/main/res/layout/content_scrolling.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/LearningNow/app/src/main/res/layout/dict_line.xml" value="0.4" />
         <entry key="..\:/AndroidStudioProjects/LearningNow/app/src/main/res/layout/dictionary.xml" value="0.25" />

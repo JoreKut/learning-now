@@ -10,9 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LearningNow">
         <activity
-            android:name=".SettingsActivity"
+            android:name=".DictionaryEditDialog"
+            android:exported="false" />
+        <activity
+            android:name=".DictionaryAddDialog"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".DictionaryActivity" />
         <activity
             android:name=".DictionaryActivity"
             android:exported="false"
@@ -26,6 +29,7 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
