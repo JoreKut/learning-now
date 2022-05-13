@@ -3,6 +3,7 @@
     <string name="settings">SETTINGS</string>
     <string name="dictionary">DICTIONARY</string>
     <string name="start">START</string>
+    <string name="theme">dark</string>
     <string name="title_activity_scrolling">ScrollingActivity</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
